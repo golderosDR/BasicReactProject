@@ -32,11 +32,14 @@ let activityData :BoredAPIData  = {
         );
     }
 
-   
-    useEffect(()=>{getActivity()},[]);
+
+ useEffect(()=>{getActivity()},[]);
+
+  
 
     return(
     <>
+
     <h1>Activity: {activityTODO.activity}</h1>
     <div>Type: {activityTODO.type}</div>
     <div>Participants: {activityTODO.participants}</div>
